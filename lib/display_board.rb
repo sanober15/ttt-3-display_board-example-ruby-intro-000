@@ -1,9 +1,11 @@
 # Define a method display_board that prints a 3x3 Tic Tac Toe Board
 def display_board
-  row = "   |   |   "
-  s = 11.times "-"
-  3. times puts row
-  print s
-  return
+  cell = "   "
+  row = "#{cell}|#{cell}|#{cell}"
+  puts row
+  11.times puts "-"
+  puts row
+  11.times puts "-"
+  puts row
 
 end
